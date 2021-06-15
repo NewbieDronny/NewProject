@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+ <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Премьера</title>
+  <link rel="shortcut icon" href="/img/ven.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css"> 
+  </head>
+  <body class="bd">
+  <div class="container">
+       <header class="header">
+       <a href="index.html" class="logo-link">
+    <img width="46" height="71" src="img/logotip.png" alt="logo" class="logo-img"></a>
+    <nav class="nav">
+        <button class="menu-button">
+            <span class="menu-button-text">меню</span>
+            <img src="img/menu.svg" alt="icon: burger-menu" class="menu-button-icon">
+        </button> 
+        <button class="menu-closed">
+            <span class="menu-closed-text">закрыть</span>
+            <img src="img/back.svg" alt="icon:back" class="menu-closed-icon">
+        </button>         
+        <ul class="nav_menu">
+            <li class="nav-menu-item">
+                <a href="about-film.html" class="nav-menu-link">О фильме</a>
+            </li>
+            <li class="nav-menu-item">
+                <a href="trailer.html" class="nav-menu-link">Трейлер</a>
+            </li>
+            <li class="nav-menu-item">
+                <a href="actors.html" class="nav-menu-link">Актёры</a>
+            </li>
+            <li class="nav-menu-item">
+                <a href="premier.html" class="nav-menu-link">Премьера</a>
+            </li>           
+        </ul>
+    </nav>      
+   </header>
+
+   <div class="content">
+       <div class="col">
+           <h1 class="content-title">Дата премьеры в России</h1>           
+           <h2 class="content-text">в России картина выйдет 16 сентября 2021 года.</h2>
+           <h2 class="content-subtitle">До премьеры осталось:</h2>                 
+       </div>
+       <!-- /.col -->       
+  </div>
+  <div class="countdown">
+    <div class="col">
+        <div id="day">00</div>
+        <div id="hour">00</div>
+        <div id="minute">00</div>
+        <div id="second">00</div>
+    </div>           
+    </div>               
+  </div> 
+  <footer>
+    <div class="social">
+        <div class="vk">            
+            <a href="https://vk.com"><img height="45" src="img/vk.png"></a>
+        </div>
+        <div class="inst">            
+            <a href="https://instagram.com"><img height="45" src="img/ins.png"></a>
+        </div>        
+    </div>
+</footer>
+  <img src="img/Venom.png" alt="photo: venom" class="venom">
+  <script src="js/main.js"></script>
+  <script src="js/timer.js"></script>  
+  </body>
+</html>
